@@ -1,10 +1,10 @@
 {
-  "name": "PWA Starter",
+  "name": "PWA SFN",
   "display": "standalone",
-  "start_url": "/",
-  "short_name": "starter",
+  "start_url": "https://axel-sp.github.io/xnsnajsnzbzjsksbajzjzu/",
+  "short_name": "sfn",
   "theme_color": "#686bd2",
-  "description": "This is a PWA Starter app",
+  "description": "This is a PWA sfn",
   "orientation": "portrait-primary",
   "background_color": "#686bd2",
   "related_applications": [],
@@ -45,5 +45,5 @@
   ],
   "url": "https://axel-sp.github.io/xnsnajsnzbzjsksbajzjzu/index.html",
   "lang": "Spanish; Castilian",
-  "scope": "/"
+  "scope": "https://axel-sp.github.io/xnsnajsnzbzjsksbajzjzu/"
 }
