@@ -17,17 +17,17 @@
 <div id="preloader"><div class="spinner-border color-highlight" role="status"></div></div>
 <div id="page">
 <div class="header header-fixed header-logo-center header-auto-show">
-<a href="/" class="header-title">Contenido</a>
+<a href="/" class="header-title">Categorias</a>
 <a href="#" data-back-button class="header-icon header-icon-1"><i class="fas fa-chevron-left"></i></a>
 <a href="#" data-menu="menu-main" class="header-icon header-icon-4"><i class="fas fa-bars"></i></a>
 <a href="#" data-toggle-theme class="header-icon header-icon-3 show-on-theme-dark"><i class="fas fa-sun"></i></a>
 <a href="#" data-toggle-theme class="header-icon header-icon-3 show-on-theme-light"><i class="fas fa-moon"></i></a>
 </div>
 <div id="footer-bar" class="footer-bar-6">
-<a href="procustom"><i class="fa fa-layer-group"></i><span>ProCustom</span></a>
-<a href="categorias" class="active-nav" class=""><i class="fa fa-file"></i><span>Categorias</span></a>
-<a href="#" class="circle-nav"><i class="fa fa-home"></i><span>Inicio</span></a>
-<a href="serversfullnetfree"><i class="fa fa-image"></i><span>ServersFullNetfree</span></a>
+<a href="#" data-toast="notification-1"><i class="fa fa-layer-group"></i><span>ProCustom</span></a>
+<a href="#" class="active-nav" class=""><i class="fa fa-file"></i><span>Categorias</span></a>
+<a href="/" class="circle-nav"><i class="fa fa-home"></i><span>Inicio</span></a>
+<a href="#" data-toast="notification-1"><i class="fa fa-image"></i><span>ServersFullNetfree</span></a>
 <a href="#" data-menu="menu-main"><i class="fa fa-bars"></i><span>Menu</span></a>
 </div>
 <div class="page-content">
@@ -152,6 +152,18 @@ Encontraras una gran variedad de fondos de pantalla en su mayoria AMOLED.
 <div id="menu-share" class="menu menu-box-bottom rounded-m" data-menu-load="menu-share" data-menu-height="370"></div>
 
 <div id="menu-colors" class="menu menu-box-bottom rounded-m" data-menu-load="menu-colors" data-menu-height="480"></div>
+</div>
+<code>$('#notification-1').toast('show');</code>
+<div id="notification-1" data-dismiss="notification-1" data-delay="3000" data-autohide="true" class="notification notification-ios bg-dark-dark ml-2 mr-2 mt-2 rounded-s">
+<span class="notification-icon color-white rounded-s">
+<i class="fa fa-bell"></i>
+<em>SFN</em>
+<i data-dismiss="notification-1" class="fa fa-times-circle"></i>
+</span>
+<h1 class="font-18 color-white mb-n3">En construcción</h1>
+<p class="pt-1">
+Próximamente todo estará completo.
+</p>
 </div>
 <script type="text/javascript" src="scripts/jquery.js"></script>
 <script type="text/javascript" src="scripts/bootstrap.min.js"></script>
